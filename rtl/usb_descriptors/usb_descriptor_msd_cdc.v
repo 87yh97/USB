@@ -8,7 +8,7 @@ module usb_desc_msd_cdc #(
         // Product version to report in device descriptor.
         parameter VERSIONBCD = 16'h0100,
         // Optional description of manufacturer (max 126 characters).
-        parameter VENDORSTR = "XXXXX",
+        parameter VENDORSTR = "PSPOD",
         parameter VENDORSTR_LEN = 5,
         // Optional description of product (max 126 characters).
         parameter PRODUCTSTR = "USB Module",
