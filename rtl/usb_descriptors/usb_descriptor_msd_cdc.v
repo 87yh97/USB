@@ -297,7 +297,7 @@ descrom[DESC_FSCFG_ADDR + 0] <= 8'h09;// bLength = 9 bytes
           //----------------- Endpoint Descriptor -----------------
           descrom[DESC_HSCFG_ADDR + 45-4] <= 8'h07;// bLength = 7 bytes
           descrom[DESC_HSCFG_ADDR + 46-4] <= 8'h05;// bDescriptorType = endpoint descriptor
-          descrom[DESC_HSCFG_ADDR + 47-4] <= 8'h81;// bEndpointAddress = INPUT 4
+          descrom[DESC_HSCFG_ADDR + 47-4] <= 8'h81;// bEndpointAddress = INPUT 1
           descrom[DESC_HSCFG_ADDR + 48-4] <= 8'h02;// bmAttributes = Bulk
           descrom[DESC_HSCFG_ADDR + 49-4] <= 8'h00;// wMaxPacketSize = 512 bytes
           descrom[DESC_HSCFG_ADDR + 50-4] <= 8'h02;
@@ -305,7 +305,7 @@ descrom[DESC_FSCFG_ADDR + 0] <= 8'h09;// bLength = 9 bytes
           //----------------- Endpoint Descriptor -----------------
           descrom[DESC_HSCFG_ADDR + 52-4] <= 8'h07;// bLength = 7 bytes
           descrom[DESC_HSCFG_ADDR + 53-4] <= 8'h05;// bDescriptorType = endpoint descriptor
-          descrom[DESC_HSCFG_ADDR + 54-4] <= 8'h01;// bEndpointAddress = OUTPUT 4
+          descrom[DESC_HSCFG_ADDR + 54-4] <= 8'h01;// bEndpointAddress = OUTPUT 1
           descrom[DESC_HSCFG_ADDR + 55-4] <= 8'h02;// TransferType = Bulk
           descrom[DESC_HSCFG_ADDR + 56-4] <= 8'h00;// wMaxPacketSize = 512 bytes
           descrom[DESC_HSCFG_ADDR + 57-4] <= 8'h02;
