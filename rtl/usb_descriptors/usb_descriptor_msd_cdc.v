@@ -288,10 +288,10 @@ descrom[DESC_FSCFG_ADDR + 0] <= 8'h09;// bLength = 9 bytes
           descrom[DESC_HSCFG_ADDR + 37-4] <= 8'h04;// bDescriptorType = interface descriptor
           descrom[DESC_HSCFG_ADDR + 38-4] <= 8'h01;// bInterfaceNumber = 1
           descrom[DESC_HSCFG_ADDR + 39-4] <= 8'h00;// bAlternateSetting = 0
-          descrom[DESC_HSCFG_ADDR + 40-4] <= 8'h02;// bNumEndpoints = 2 //8'h02
-          descrom[DESC_HSCFG_ADDR + 41-4] <= 8'h08;// bInterfaceClass = MSC //8'h08
-          descrom[DESC_HSCFG_ADDR + 42-4] <= 8'h06;// bInterfaceSubClass = SCSI Transparent command set //8'h06
-          descrom[DESC_HSCFG_ADDR + 43-4] <= 8'h50;// bInterafceProtocol = BBB //8'h50
+          descrom[DESC_HSCFG_ADDR + 40-4] <= 8'h02;// bNumEndpoints = 2
+          descrom[DESC_HSCFG_ADDR + 41-4] <= 8'h08;// bInterfaceClass = MSC
+          descrom[DESC_HSCFG_ADDR + 42-4] <= 8'h06;// bInterfaceSubClass = SCSI
+          descrom[DESC_HSCFG_ADDR + 43-4] <= 8'h50;// bInterafceProtocol = BOT(BBB)
           descrom[DESC_HSCFG_ADDR + 44-4] <= 8'h00;// iInterface = none
 
           //----------------- Endpoint Descriptor -----------------
