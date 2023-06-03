@@ -231,7 +231,7 @@ module usb_wishbone #(
     // localparam [11:0] MSD_MAX_LEN = 12'd256;
     //localparam [11:0] MSD_MAX_LEN = 12'd64;
 
-    localparam MSD_RX_FIFO_DPTH_W = 7;
+    localparam MSD_RX_FIFO_DPTH_W = 10;
     localparam MSD_TX_FIFO_DPTH_W = 10;
 
     logic [7:0] msd_rx_wdat  ;
@@ -291,8 +291,8 @@ module usb_wishbone #(
     // ----------------------------------------------------------
 
     localparam [11:0] CDC_MAX_LEN = 12'd32;
-    localparam CDC_RX_FIFO_DPTH_W = 5;
-    localparam CDC_TX_FIFO_DPTH_W = 5;
+    localparam CDC_RX_FIFO_DPTH_W = 9;
+    localparam CDC_TX_FIFO_DPTH_W = 9;
 
     logic [7:0] cdc_rx_wdat  ;
     logic       cdc_rx_wena  ;
