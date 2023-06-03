@@ -78,7 +78,7 @@ static uint8_t SCSI_INQUIRY_RESP[36] =
 {
         0x00,           // Block device
         0x80,           // Removable media
-        0x02,           // SPC-1
+        0x02,           // SPC-2
         0x02,           // Response data format = 0x02
         0x1F,           // Additional_length = length - 5
         0x00,
