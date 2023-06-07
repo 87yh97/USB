@@ -55,9 +55,7 @@ static scsi_csw_t scsi_csw_buf = {
 #define SCSI_READ_CAPACITY_10             (0x25)
 #define SCSI_MODE_SENSE_6                 (0x1A)
 #define SCSI_READ_10                      (0x28)
-#define SCSI_WRITE_10                     (0x2A)
 #define SCSI_TEST_UNIT_READY              (0x00)
-#define SCSI_PREVENT_ALLOW_MEDIUM_REMOVAL (0x1E)
 #define SCSI_READ_FORMAT_CAPACITY         (0x23)
 
 #define SCSI_CSW_STATUS_OK                (0x00)
